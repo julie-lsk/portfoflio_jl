@@ -1,6 +1,6 @@
 import { useRef } from "react";
 import {motion, useScroll, useTransform, } from "framer-motion";
-import "./APropos.scss";
+import "./aPropos.scss";
 import Skills from './skills/Skills';
 import contact from '../../utils/assets/email.webp';
 import cv from '../../utils/assets/cv.webp';

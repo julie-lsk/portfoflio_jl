@@ -10,7 +10,7 @@ const FORM_ID = process.env.REACT_APP_FORMSPREE_ID;
 
 function ContactForm() 
 {
-  const [state, handleSubmit] = useForm(FORM_ID);
+  const [state, handleSubmit] = useForm("https://formspree.io/f/mgvwzwen");
 
   if (state.succeeded) {
     return <p id='submited'>Votre message a bien été envoyé ! Merci :)</p>;
