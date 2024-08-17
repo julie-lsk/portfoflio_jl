@@ -16,7 +16,7 @@ function Accueil()
 
                 <img src={mouseScroll} className="scroll-button" alt="Icône d'une souris d'ordinateur"></img>
 
-                <img src="/assets/half_moon.webp" className="moon" alt="Demi lune" loading="lazy"></img>
+                <img src="./assets/half_moon.webp" className="moon" alt="Demi lune" loading="lazy"></img>
 
             </div>
 

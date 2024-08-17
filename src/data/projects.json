@@ -3,7 +3,7 @@
         "id": 1,
         "title": "Kasa - agence immobilière",
         "description": "Site de location d'appartement responsive avec un carrousel d'images pour découvrir les logements, avec également des petites animations.",
-        "img": "./Kasa/kasa_mockup.webp",
+        "img": "./Kasa/Kasa_mockup.webp",
         "languages": [
             "./langages/react.webp",
             "./langages/sass.webp"

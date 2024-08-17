@@ -5,9 +5,6 @@ import { useForm, ValidationError } from '@formspree/react';
 import {motion} from 'framer-motion';
 
 
-const FORM_ID = process.env.REACT_APP_FORMSPREE_ID;
-
-
 function ContactForm() 
 {
   const [state, handleSubmit] = useForm("https://formspree.io/f/mgvwzwen");
