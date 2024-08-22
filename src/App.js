@@ -1,6 +1,6 @@
 import React from 'react';
 import { useEffect, useState, useTransition } from 'react';
-import {AnimatePresence, motion} from "framer-motion";
+import {AnimatePresence} from "framer-motion";
 import '../src/app.scss';
 
 
