@@ -3,32 +3,18 @@
 table
 {
     width: 100%;
-    min-width: 1200px;
+    min-width: 900px;
     border-collapse: collapse;
     background-color: rgba($color: #f7f4f454, $alpha: 0.2);
-    font-size: 30px;
+    font-size: 1.3rem;
     display: flex;
     flex-direction: column;
-
-    @media (max-width: 1600px) 
-    {
-        min-width: 900px;
-    }
-
-    @include desktop 
-    {
-        max-width: 700px;
-        font-size: 27px;
-    }
 
     @include tablet 
     {
         min-width: unset;
-    }
-
-    @media (max-width: 900px)
-    {
-        font-size: 25px;
+        width: auto;
+        font-size: 1.15rem;
     }
 
     tr
@@ -38,18 +24,13 @@ table
 
     th
     {
-        font-size: 35px;
+        font-size: 1.5rem;
         display: flex;
         justify-content: center;
 
-        @include desktop 
+        @include tablet
         {
-            font-size: 32px;
-        }
-
-        @media (max-width: 900px)
-        {
-            font-size: 30px;
+            font-size: 1.4rem;
         }
     }
 
@@ -62,10 +43,11 @@ table
         align-items: center;
         border: 1px solid #ffffff62;
 
-        @include desktop 
+        @media (max-width: 850px)
         {
             flex-direction: column-reverse;
             justify-content: center;
+            padding: 10px;
             gap: 10px;
             text-align: center;
         }
@@ -73,34 +55,32 @@ table
 
     td
     {
-        height: 180px;
+        height: 80px;
 
-        @include desktop 
+        @media (max-width: 850px)
         {
-            height: 150px;
+            height: 95px;
         }
     }
     
     td img 
     {
-        width: 85px;
-        max-height: 95px;
+        width: 45px;
+        max-height: 55px;
         height: auto;
         margin-right: 20px;
         filter: grayscale(100%);
         cursor: pointer;
 
-        @include desktop 
+        @include tablet 
         {
-            width: 75px;
-            max-height: 85px;
-            margin: 0;
+            width: 40px;
+            max-height: 50px;
         }
 
-        @media (max-width: 900px)
+        @media (max-width: 850px)
         {
-            width: 60px;
-            max-height: 65px;
+            margin-right: 0;
         }
     }
 
@@ -113,11 +93,23 @@ table
 
     #small
     {
-        width: 150px;
+        width: 90px;
 
-        @include desktop 
+        @include tablet 
         {
-            width: 110px;
+            width: 80px;
+        }
+    }
+
+    #large
+    {
+        width: 37px;
+        height: 47px;
+
+        @include tablet 
+        {
+            width: 32px;
+            max-height: 42px;
         }
     }
 }
@@ -131,7 +123,7 @@ table
 
 // Si écran inférieur à 800px, le tableau devient une liste
 
-@media (max-width: 800px) 
+@media (max-width: 700px) 
 {
     table 
     {
@@ -141,9 +133,19 @@ table
     .skills-list 
     {
         display: block;
-        width: 80%;
+        width: 70%;
         background-color: rgba($color: #f7f4f454, $alpha: 0.2);
         padding: 30px;
+
+        @media (max-width: 550px) 
+        {
+            padding: 20px;
+        }
+
+        @media (max-width: 350px) 
+        {
+            padding: 10px;
+        }
 
         > ul 
         {
@@ -156,15 +158,21 @@ table
 
                 h4 
                 {
-                    font-size: 33px;
+                    font-size: 1.4rem;
                     font-weight: 600;
                     margin-bottom: 30px;
                     border-bottom: 1px solid #ffffff62;
                     padding-bottom: 5px;
 
-                    @media (max-width: 750px)
+                    @media (max-width: 500px) 
                     {
-                        font-size: 30px;
+                        font-size: 1.2rem;
+                    }
+
+                    @media (max-width: 350px) 
+                    {
+                        font-size: 1.1rem;
+                        margin-bottom: 20px;
                     }
                 }
 
@@ -178,29 +186,51 @@ table
                         display: flex;
                         justify-content: space-between;
                         align-items: center;
-                        margin: 0 20px 25px;
-                        font-size: 25px;
+                        margin: 0 15px 20px;
+                        font-size: 1.15rem;
 
-                        @media (max-width: 750px)
+                        @media (max-width: 500px) 
                         {
-                            font-size: 23px;
+                            font-size: 1rem;
+                            margin: 0 10px 15px; 
                         }
 
-                        @media (max-width: 600px)
+                        @media (max-width: 350px) 
                         {
-                            margin: 0 20px 15px;
+                            font-size: 0.9rem;
+                            margin: 0 10px 10px;
                         }
 
                         img 
                         {
-                            width: 50px;
+                            width: 35px;
                             height: auto;
-                            max-height: 55px;
+                            max-height: 45px;
                             filter: none;
+
+                            @media (max-width: 500px) 
+                            {
+                                width: 30px;
+                                max-height: 37px;
+                            }
 
                             &.small 
                             {
-                                width: 80px;
+                                width: 60px;
+
+                                @media (max-width: 500px) 
+                                {
+                                    width: 50px;
+                                }
+                            }
+
+                            &#large 
+                            {
+                                @media (max-width: 500px) 
+                                {
+                                    width: 27px;
+                                    max-height: 33px;
+                                }
                             }
                         }
                     }

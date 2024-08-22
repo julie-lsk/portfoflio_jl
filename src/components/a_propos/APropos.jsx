@@ -39,10 +39,10 @@ function APropos()
 
                     <p>Je suis <strong>Julie</strong>, j'ai 23 ans et je suis Développeuse Web Junior avec un intérêt particulier pour le <strong>front-end</strong>.</p> 
 
-                    <p className="space paragraphe">J'ai suivi une formation en développement web qui m'a permis de réaliser 7 projets sur diverses thématiques : front, back, SEO, gestion de projet...</p> <br />
+                    <p className="paragraphe">J'ai suivi une formation en développement web qui m'a permis de réaliser 7 projets sur diverses thématiques : front, back, SEO, gestion de projet...</p> <br />
                     <p>Grâce à elle, j'ai compris que je souhaite développer mes compétences dans la création d'interface utilisateur (UI) afin d'améliorer l'expérience utilisateur (UX).</p>
 
-                    <p className="space paragraphe">Afin d'aller plus loin dans mon apprentissage, je suis à la recherche d'une <strong>alternance</strong> pour réaliser une licence informatique dès la rentrée de <strong>septembre 2024</strong>.</p> <br />
+                    <p className="paragraphe">Afin d'aller plus loin dans mon apprentissage, je suis à la recherche d'une <strong>alternance</strong> pour réaliser une licence informatique dès la rentrée de <strong>septembre 2024</strong>.</p> <br />
                     <p>Je suis très motivée à poursuivre mes études, afin d'apprendre tout en travaillant sur des projets concrets !</p>
 
                     <p className="space">Hâte de pouvoir en discuter avec vous !</p>

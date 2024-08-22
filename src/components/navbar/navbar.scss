@@ -1,3 +1,5 @@
+@import "../../app.scss";
+
 .navbar
 {
     width: 100%;
@@ -12,21 +14,29 @@
         background-image: url("../../utils/assets/logo_blanc.webp");
         background-position: center;
         background-size: cover;
-        height: 70px;
-        width: 70px;
-        top: 50px;
-        left: 50px;
+        height: 45px;
+        width: 45px;
+        top: 40px;
+        left: 40px;
 
-        @media (max-width: 750px)
+        @media (max-width: 950px)
         {
-            width: 60px;
-            height: 60px;
+            width: 40px;
+            height: 40px;
+        }
+
+        @include mobile
+        {
+            top: 30px;
+            left: 30px;
         }
 
         @media (max-width: 400px) 
         {
-            width: 50px;
-            height: 50px;
+            width: 35px;
+            height: 35px;
+            top: 20px;
+            left: 20px;
         }
     }
 }

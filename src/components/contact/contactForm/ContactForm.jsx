@@ -7,10 +7,10 @@ import {motion} from 'framer-motion';
 
 function ContactForm() 
 {
-  const [state, handleSubmit] = useForm("https://formspree.io/f/mgvwzwen");
+  const [state, handleSubmit] = useForm("mgvwzwen");
 
   if (state.succeeded) {
-    return <p id='submited'>Votre message a bien été envoyé ! Merci :)</p>;
+    return <p id='submited'>Votre message a bien été envoyé ! <br/>Merci :)</p>;
   }
 
 

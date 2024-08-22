@@ -48,7 +48,7 @@ function Skills()
         </tr>
         <tr>
           <td><img src={nodeJS} title="Node.js" alt="Node.js" id="small" /> Node.js</td>
-          <td><img src={figma} title="Figma" alt="Figma" /> Figma</td>
+          <td><img src={figma} title="Figma" alt="Figma" id='large' /> Figma</td>
           <td> Optimisation des performances</td>
         </tr>
         <tr>
@@ -89,7 +89,7 @@ function Skills()
             <li>VS Code <img src={vscode} alt="VS Code" /></li>
             <li>Git <img src={git} alt="git - outil de versioning" /></li>
             <li>GitHub <img src={github} alt="GitHub" /></li>
-            <li>Figma <img src={figma} alt="Figma" /></li>
+            <li>Figma <img src={figma} alt="Figma" id='large' /></li>
             <li>GIMP <img src={gimp} alt="GIMP" /></li>
             <li>Framer Motion <img src={framerMotion} alt="Framer-motion" /></li>
           </ul>

@@ -20,11 +20,11 @@ a
     color: inherit; /* prend la couleur du parent (body donc white) */
 }
 
-@mixin mobile 
+@mixin desktop 
 {
-    @media (max-width: 738px) 
+    @media (max-width: 1366px) 
     {
-      @content;
+        @content;
     }
 }
 
@@ -36,10 +36,10 @@ a
     }
 }
 
-@mixin desktop 
+@mixin mobile 
 {
-    @media (max-width: 1366px) 
+    @media (max-width: 738px) 
     {
-        @content;
+      @content;
     }
 }
