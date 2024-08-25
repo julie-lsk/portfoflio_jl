@@ -18,7 +18,7 @@
     margin: auto;
     display: flex;
     align-items: center;
-    color: rgb(80, 85, 90);
+    color: $text-color;
     padding-top: 100px;
 
     @media (max-width: 1550px) 
@@ -242,7 +242,8 @@
             input::placeholder, textarea::placeholder
             {
                 font-size: 1.1rem;
-                color: rgba(80, 85, 90, 60%);
+                color: $text-color;
+                opacity: 60%;
 
                 @include desktop
                 {
@@ -257,7 +258,7 @@
 
             button
             {
-                color: rgb(80, 85, 90);
+                color: $text-color;
                 font-size: 1.2rem;
                 padding: 20px;
                 background-color: transparent;

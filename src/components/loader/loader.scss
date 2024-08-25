@@ -1,7 +1,8 @@
 // Animation créée par Paul Grant sur CodePen (https://codepen.io/dissimulate)
 // GitHub : https://github.com/dissimulate
 
-$background: #222;
+ @import "../../app.scss";
+
 $leftFace: #023448;
 $rightFace: #97e9d3;
 $topFace: #1d9099;
@@ -31,16 +32,28 @@ aside
 
 .container {
   position:relative;
-  height:100px;
-  width:86px;
+  height:80px;
+  width:70px;
   transform:scale(#{$scale * .5});
 }
 
 .cube {
   position:absolute;
   margin: auto;
-  width:86px;
-  height:100px;
+  height:80px;
+  width:70px;
+
+  @include tablet
+  {
+    height: 60px;
+    width: 50px;
+  }
+
+  @include mobile
+  {
+    height: 25px;
+    width: 20px;
+  }
 }
 
 .right {
@@ -60,10 +73,22 @@ aside
 }
 
 .face {
-  height:50px;
-  width:50px;
+  height:40px;
+  width:40px;
   position:absolute;
   transform-origin: 0 0;
+
+  @include tablet
+  {
+    height: 30px;
+    width: 30px;
+  }
+
+  @include mobile
+  {
+    height: 15px;
+    width: 15px;
+  }
 }
 
 @mixin slice($h, $w, $l) {

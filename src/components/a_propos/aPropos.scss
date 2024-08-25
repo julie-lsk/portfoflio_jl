@@ -8,9 +8,14 @@
     background: linear-gradient(180deg, rgba(57,183,231,1) 36%, rgb(114, 230, 238) 96%);
     overflow: hidden;
 
-    @media (max-width: 350px) 
+    @include tablet
     {
         height: 230dvh;
+    }
+
+    @media (max-width: 400px) 
+    {
+        height: 300dvh;
     }
 
     .flex
@@ -422,6 +427,12 @@
         {
             right: -100px;
             top: 43%;
+        }
+
+        @media (max-width: 400px) 
+        {
+            right: -100px;
+            top: 38%;
         }
 
         @media (max-width: 350px) 
