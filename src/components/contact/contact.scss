@@ -7,7 +7,7 @@
 
     @media (max-width: 400px) 
     {
-        height: 115dvh;
+        height: 120dvh;
     }
 }
 
@@ -50,6 +50,11 @@
         {
             flex: none;
             gap: 25px;
+        }
+
+        @media (max-width: 400px) 
+        {
+            gap: 15px;
         }
 
         @media (max-width: 350px) 
@@ -151,6 +156,11 @@
             flex: none;
         }
 
+        @media (max-width: 400px)
+        {
+            margin-bottom: 30px;
+        }
+
         .email-svg, #Layer_2
         {
             width: 100%;
@@ -225,6 +235,7 @@
                 @media (max-width: 500px) 
                 {
                     font-size: 0.9rem;
+                    padding: 15px;
                 }
             }
 
@@ -263,6 +274,7 @@
                 @media (max-width: 500px) 
                 {
                     font-size: 1rem;
+                    padding: 15px;
                 }
 
                 &:hover

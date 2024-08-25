@@ -26,7 +26,7 @@
             width: 90px;
             height: 55px;
             margin-top: 30px;
-            filter: invert(100%);
+            opacity: 45%;
 
             @media (max-width: 900px)
             {
@@ -59,7 +59,7 @@
         {
             width: 65px;
             height: 80px;
-            filter: invert(100%);
+            opacity: 45%;
 
             @include desktop
             {
@@ -129,7 +129,7 @@
 
             @include mobile
             {
-                width: 75%;
+                width: 60%;
             }
 
             h3

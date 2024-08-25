@@ -60,7 +60,7 @@
 
         a
         {
-            color: rgba(80, 85, 90, 80%);
+            color: $text-color;
             font-size: 1.8rem;
             line-height: 3;
             font-weight: 500;
@@ -105,7 +105,7 @@
         transition: 0.7s ease-in;
         &:hover
         {
-            scale: 1.2;
+            scale: 1.1;
             transition: none;
         }
         &:active
@@ -195,10 +195,10 @@
 
     svg
     {
-        opacity: 70%;
+        opacity: 60%;
         width: 19px;
         height: 19px;
-        margin-top: 1px;
+        margin-top: 4px;
 
         @media (max-width: 950px)
         {

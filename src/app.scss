@@ -1,3 +1,5 @@
+$text-color: #50555a;
+
 *
 {
     margin: 0;
@@ -11,13 +13,13 @@
 
 body
 {
-    color: white;
+    color: $text-color;
 }
 
 a
 {
     text-decoration: none;
-    color: inherit; /* prend la couleur du parent (body donc white) */
+    color: inherit; /* prend la couleur du parent (body) */
 }
 
 @mixin desktop 

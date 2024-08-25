@@ -39,13 +39,14 @@
 
         @media (max-width: 450px) 
         {
-            padding: 70px 30px 30px;
+            padding: 40px 30px 30px;
         }
 
         h3
         {
             font-size: 2.5rem;
             font-weight: 600;
+            color: $text-color;
             padding-bottom: 10px;
 
             @include tablet
@@ -82,7 +83,7 @@
         .progressBar
         {
             height: 7px;
-            background-color: white;
+            background-color: $text-color;
 
             @include mobile
             {
@@ -246,13 +247,13 @@
         @media (max-width: 400px) 
         {
             left: 0%;
+            width: 220px;
+            height: 110px;
         }
 
         @media (max-width: 350px) 
         {
             left: 5%;
-            width: 220px;
-            height: 110px;
         }
 
         @media (max-width: 300px) 

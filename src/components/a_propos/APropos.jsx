@@ -43,7 +43,7 @@ function APropos()
                     <p>Grâce à elle, j'ai compris que je souhaite développer mes compétences dans la création d'interface utilisateur (UI) afin d'améliorer l'expérience utilisateur (UX).</p>
 
                     <p className="paragraphe">Afin d'aller plus loin dans mon apprentissage, je suis à la recherche d'une <strong>alternance</strong> pour réaliser une licence informatique dès la rentrée de <strong>septembre 2024</strong>.</p> <br />
-                    <p>Je suis très motivée à poursuivre mes études, afin d'apprendre tout en travaillant sur des projets concrets !</p>
+                    <p>Je suis très motivée à poursuivre mes études, pour apprendre tout en travaillant sur des projets concrets !</p>
 
                     <p className="space">Hâte de pouvoir en discuter avec vous !</p>
 
